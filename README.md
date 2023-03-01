@@ -18,10 +18,9 @@ An example on how to run the inference code, as well as how to prepare the input
 - scikit-learn 1.0.2
 - pytorch 1.10.2
 
-An evironment fulfilling these dependencies can be created by cloning the repository and following these steps:
+An evironment fulfilling these dependencies can be created by cloning the repository and running:
 <code>
 conda env create -f mtx_env.yaml
-conda activate mtx_env
 </code>
 
 
