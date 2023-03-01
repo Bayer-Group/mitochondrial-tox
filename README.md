@@ -7,9 +7,11 @@ For this purpose, we first derived highly curated datasets of mitochondrial toxi
 
 
 ## Repository information
-The training data for the mechanistic models, as well as the external test set can be found under <i>data/mitotox_dataset.csv</i>. \
-The best model for each endpoint (<i>"overall"</i>, <i>"membrane potential"</i>, <i>"respiratory chain"</i> and <i>"function of mitochondria"</i>) is provided under <i>models/</i>. The models for the <i>"overall"</i> and <i>"membrane potential"</i> endpoints are feed-forward neural networks and the models for the <i>"respiratory chain"</i> and <i>"function of mitochondria"</i> endpoints are random forest models. \
-An example on how to run the inference code, as well as how to prepare the input SMILES, can be found in the Jupyter Notebook (<i>apply_models.ipynb</i>).
+The training data for the mechanistic models, as well as the external test set can be found under <b>data/mitotox_dataset.csv.gz</b>. 
+
+The best model for each endpoint (<i>"overall"</i>, <i>"membrane potential"</i>, <i>"respiratory chain"</i> and <i>"function of mitochondria"</i>) is provided under <b>models/</b>. The models for the <i>"overall"</i> and <i>"membrane potential"</i> endpoints are feed-forward neural networks and the models for the <i>"respiratory chain"</i> and <i>"function of mitochondria"</i> endpoints are random forest models. 
+
+An example on how to run the inference code, as well as how to prepare the input SMILES, can be found in the Jupyter Notebook (<b>apply_models.ipynb</b>).
 
 
 ## Dependencies
@@ -19,8 +21,7 @@ An example on how to run the inference code, as well as how to prepare the input
 - pytorch 1.10.2
 
 An evironment fulfilling these dependencies can be created by cloning the repository and running:
-<code>
-conda env create -f mtx_env.yaml
-</code>
+
+<code>conda env create -f mtx_env.yaml</code>
 
 
