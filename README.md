@@ -7,7 +7,7 @@ For this purpose, we first derived highly curated datasets of mitochondrial toxi
 
 
 ## Repository information
-The training data for the mechanistic models, as well as the external test set can be found under <b>data/mitotox_dataset.csv.gz</b>. 
+The training data for the mechanistic models, as well as the external test set can be downloaded from the supporting information of the paper. 
 
 The best model for each endpoint (<i>"overall"</i>, <i>"membrane potential"</i>, <i>"respiratory chain"</i> and <i>"function of mitochondria"</i>) is provided under <b>models/</b>. The models for the <i>"overall"</i> and <i>"membrane potential"</i> endpoints are feed-forward neural networks and the models for the <i>"respiratory chain"</i> and <i>"function of mitochondria"</i> endpoints are random forest models. 
 
