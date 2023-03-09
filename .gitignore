@@ -1,3 +1,4 @@
 .DS_Store
 mtx/.ipynb_checkpoints/
 mtx/__pycache__/
+data/mitotox_dataset.csv.gz
