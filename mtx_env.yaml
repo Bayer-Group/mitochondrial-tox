@@ -7,3 +7,4 @@ dependencies:
   - rdkit=2021.09.4
   - scikit-learn=1.0.2
   - pytorch=1.10.2
+  - openpyxl
